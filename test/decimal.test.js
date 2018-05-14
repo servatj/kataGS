@@ -1,7 +1,7 @@
 const assert = require('assert');
 const kata = require('../src/Decimal');
 
-describe.only('It test number conversion from roman to dec ', function() {
+describe('It test number conversion from roman to dec ', function() {
 
   testCases = [
     { testCase: 'X' , expected: 10 },
